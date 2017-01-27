@@ -2,88 +2,125 @@
 <html>
 
 <head>
-
 	<title>Laura Fiig</title>
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-flatly.css">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://code.jquery.com/jquery.js"></script>
-
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<div class="container">
 
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Laura Fiig, Developer</a>
-			</div>
+	<nav class="navbar navbar-default navbar-fixed-top topnav">
+		<div class="container topnav">
 		<ul class="nav navbar-nav">
-			<li class="active"><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li class="active"><a class="linktext" href="#about">About</a></li>
+			<li><a class="linktext" href="#portfolio">Portfolio</a></li>
+			<li><a class="linktext" href="contact.html">Contact</a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-	    	<li><a href="#">Glass</a></li>
+	    	<!--<li><a href="#">Glass</a></li>-->
+	    	<li><a class="linkicons" href="https://github.com/laurafiig" target="_blank">
+					<img class="icons" src="assets/images/GitHub-Mark-64px.png" alt="GitHub">
+					</a></li>
+	    	<li><a class="linkicons" href="https://www.linkedin.com/in/laurafiig" target="_blank">
+					<img class="icons" src="assets/images/In-2C-66px-R.png" alt="LinkedIn">
+					</a></li>
+	    	<li><a class="linktext" href="https://drive.google.com/open?id=0BxUbPwua0yHbLUdTcGRTeHpvalk">My Resume</a></li>
 	  	</ul>
 		</div>
 	</nav>
 
-	<div class="row">
-
-		<div class="col-md-8">
-			<div class="panel panel-warning">
-				<div class="panel-heading">
-					<h3 class="panel-title">About Me</h3>
-				</div>
-				<div class="panel-body">
-					<img class="mypic" src="assets/images/laura.jpg" alt="Laura" width="150" height="150">
-					<p>I am currently enrolled full time in the Full Stack Coding Boot Camp Program through the University of Texas at Austin Center for Professional Development.  I became interested in learning about web development while looking for a career change that would bring me new challenges and an opportunity for learning and growth.</p>
-					<br>
-					<p>Before beginning my journey to become a web developer, I worked for twenty five years as a Mechanical Engineer in the defense industry.  I worked on a variety of programs ranging from SINCGARS radios to test equipment for optical devices to cabling for GPS satellite panels.  I am looking forward to new challenges, and a new career path.</p>
-					<br>
-					<p>In my free time, I enjoy exploring the Austin area, taking road trips, cooking, spending time with my family, and reading. I also create jewelry and decorative pieces using stained glass and fused glass.</p>
-				</div>
+	<div class="container" id="aboutSec">
+		<a name="about"></a>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<img class="mypic" src="assets/images/laura.jpg" alt="Laura">
+			</div>
+			<div class="col-md-7" id="aboutTxt">	
+				<h2>Laura Fiig - Developer</h2>
+				<hr>
+				<p>I am a web developer and mechanical design engineer, located in Austin, Texas.  I have recently graduated from the Full Stack Coding Boot Camp Program at the University of Texas at Austin Center for Professional Development.  I became interested in learning about web development while looking for a career change that would bring me new challenges and an opportunity for learning and growth.</p>
+				<br>
+				<p>In my previous career as a mechanical design engineer, I have experience working in a fast-paced environment with diverse cross-functional teams to meet schedule and budget goals.  I am motivated, adaptable, and highly organized, and love to learn about new technologies.</p>
+				<br>
+				<p>My hobbies include making art and jewelry with stained glass and fused glass.  In the future I would like to expand into 3-D printing and laser etching.  In short, I like to create things – art, engineering designs, or code.</p>
+			</div>
+			<div class="col-md-1">
 			</div>
 		</div>
-
-		<div class="col-md-4">
-			<div class="panel panel-warning">
-				<div class="panel-heading">
-					<h3 class="panel-title cnct">Connect with Me</h3>
-				</div>
-				<div class="panel-body">
-					<a class="linkicons" href="https://github.com/laurafiig" target="_blank">
-					<img class="icons" src="assets/images/GitHub-Mark-64px.png" alt="GitHub">
-					</a>
-					<a class="linkicons" href="https://www.linkedin.com/in/laurafiig" target="_blank">
-					<img class="icons" src="assets/images/In-2C-66px-R.png" alt="LinkedIn">
-					</a>
-					<a class="linkicons"  href="http://stackoverflow.com/users/6951392/laura-fiig" target="_blank">
-					<img class="icons" src="assets/images/so-icon.png" alt="Stack Overflow">
-					</a>
-					<hr>
-					<a id="resume" href="https://drive.google.com/open?id=0BxUbPwua0yHbLUdTcGRTeHpvalk"><h4 id="resume">My Resume</h4></a>
-				</div>
-			</div>
-		</div>
-
 	</div>
 
+<div class="container" id="portfolio">
+	<a name="portfolio"></a>
 	<div class=row>
 		<div class="col-md-12">
-			<div class="panel panel-success wide">
-				<div class="panel-heading">
-					<h6 class="panel-title cpyrt"> &copy; Copyright 2017  Laura Fiig</h6>
-				</div>
-			</div>
+			
+				
+					<h3 class="panel-title">Portfolio</h3>
+				
+				
+					<div class="row"> 
+						<div class="col-md-6">
+						<section class="projlink">
+						<a href="#">
+						<img src="assets/images/fire200.jpg" alt="Project1" />
+						</a>
+						<div class="proj">
+						<h5>Map Your Life</h5>
+						<a href="https://stark-plateau-41427.herokuapp.com/">Heroku   
+						|</a><a href="https://github.com/Rhyngoh/ProjectPrometheus">|   GitHub</a>
+						</div>
+						</section>
+						</div>
+						<div class="col-md-6">
+						<section class="projlink">
+						<a href="#">
+						<img src="assets/images/pinkish200.jpg" alt="Trivia Game" />
+						</a>
+						<div class="proj">
+						<h5>Travel Buddy</h5>
+						<a href="https://mighty-springs-39390.herokuapp.com/">Heroku   |</a><a href="https://github.com/jstriker84/TeamShortBus">|   GitHub</a>
+						</div>	
+						</section>
+						</div>	
+					</div>
+					<div class="row"> 
+						<div class="col-md-6">
+						<section class="projlink">
+						<a href="#">
+						<img src="assets/images/bluecloud200.jpg" alt="Rock Paper Scissors" />
+						</a>
+						<h5 class="proj">Coming Soon</h5>	
+						</section>
+						</div>		
+						<div class="col-md-6">		
+						<section class="projlink">
+						<a href="#">
+						<img src="assets/images/blueswirl200.jpg" alt="RPG Game" />
+						</a>
+						<h5 class="proj">Coming Soon</h5>
+						</section>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+						</div>
+						<div class="col-md-6">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+						</div>
+						<div class="col-md-6">
+						</div>
+					</div>
+				
+			
 		</div>
 	</div>
-
 </div>
 
 <script type="text/javascript" src="assets/javascript/app.js"></script>

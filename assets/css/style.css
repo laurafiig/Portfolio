@@ -1,13 +1,47 @@
-/* a nicer background pattern*/
-body {
-	background-image: url("../images/mist.jpg");
+/*navbar formatting*/
+.navbar-default {
+  background-color: #79c488!important;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: black!important;
+}
+
+.linktext {
+  color: black!important;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+  }
+
+
+/*about me section*/
+#aboutSec {
+  margin-top: 55px;
+  padding-top: 100px;
+  height: 600px;
+  background-image: url("../images/rain.jpg");
   width: 100%;
 }
 
-/*allows About Me text to flow around picture*/
+#aboutTxt {
+  background-color: white; 
+  opacity: 0.5;
+}
+
 .mypic {
-    float: left;
-    padding: 0 10px 10px 0;
+    width: 100%;
+}
+
+
+/*portfolio section*/
+
+#portfolio {
+  background-image: url("../images/stripe.jpg");
+  width: 100%;
 }
 
 /*text over pictures for portfolio*/
@@ -28,51 +62,4 @@ body {
     left: 10; 
     width: 200px;
 }
-
-/* formatting for contact icons and heading*/
-.linkicons {
-  padding: 20px;
-}
-
-.icons {
-  width: 60px;
-  height: 60px;
-  border: 0;
-}
-
-#resume {
-  text-align: center; 
-}
-
-.cnct {
-	text-align: center;
-}
-
-/* styling for footer*/
-.cpyrt {
-	text-align: center; 
-	
-}
-
-/*sticky footer!!*/
-html, body {
-  height: 100%; 
-  margin: 0; 
-}
-
-.wrapper { 
-  min-height: 100%; 
-  margin-bottom: -60px; }
-
-
-
-
-
-
-
-
-
-
-
-
 
