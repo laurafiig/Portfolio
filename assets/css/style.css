@@ -8,10 +8,6 @@
   color: black!important;
 }
 
-.linktext {
-  color: black!important;
-}
-
 .icons {
   width: 25px;
   height: 25px;
@@ -41,25 +37,42 @@
 
 #portfolio {
   background-image: url("../images/stripe.jpg");
+
   width: 100%;
 }
 
+.links {float: right; padding: 90px 35px 0 0; }
+
+.linktext {color: black; font-size: 20px}
+
+.projPic {width: 75%;}
+
 /*text over pictures for portfolio*/
 .projlink { 
+   height: 259px;
+   background-color: white;
    position: relative; 
-   padding: 10px;
-   /*float: left;*/
-   margin: 20px
+   margin: 20px;
 }
 
 .proj {
-	background-color: #446e9b;
+	background-color: #79c488;
 	color: #ffffff;
     text-align: center;
 	padding: 10px;
 	position: absolute; 
-    top: 160px; 
+    top: 204px; 
     left: 10; 
-    width: 200px;
+    width: 423px;
 }
 
+#contact {
+  background-image: url("../images/water.jpg");
+
+  width: 100%;
+  height: 500px;
+}
+
+#contForm {
+  margin-top: 75px;
+}
