@@ -1,11 +1,5 @@
-/*body {
-background-image: url("../images/cubes.png");
-background-image: url("../images/graphy.png");
-background-image: url("../images/hexellence.png");
-width:  100%;
-}*/
 
-/*navbar formatting*/
+/* navbar formatting */
 .navbar-default {
   background-color: #79c488!important;
 }
@@ -15,31 +9,40 @@ width:  100%;
   color: black!important;
 }
 
+/* sizing for images in navbar */
 .icons {
   width: 25px;
   height: 25px;
   }
 
+/* text for links in navbar and portfolio */
+.linktext {
+  color: black!important; 
+  font-size: 15px
+}
 
-/*about me section*/
+/* formats about me section */
 #aboutSec {
   margin-top: 55px;
   padding-top: 100px;
   height: 700px;
   background-image: url("../images/cubes.png");
-
-width:  100%;
+  width:  100%;
 }
 
-#aboutTxt {
-  background-color: white; 
-  opacity: 0.5;
-}
-
+/* sizes profile picture */
 .mypic {
     width: 100%;
 }
 
+#aboutBck {
+  background-color: white; 
+  opacity: 0.5;
+}
+
+ .aboutTxt {opacity: 1;}
+
+/* formats portfolio section */
 #portfolio {
 background-image: url("../images/graphy.png");
 width:  100%;
@@ -53,35 +56,9 @@ padding: 100px 0 100px 0;
 
 .panel-heading {font-size: 20px; font-weight: bold;}
 
-
-
-.links {float: right; padding: 90px 35px 0 0; }
-
-.linktext {color: black; font-size: 15px}
-
-.projPic {width: 75%;}
-
 .projPicNew {width: 106.5%;  margin: -15px;}
 
-/*text over pictures for portfolio*/
-.projlink { 
-   height: 259px;
-   background-color: white;
-   position: relative; 
-   margin: 20px;
-}
-
-.proj {
-	background-color: #79c488;
-	color: #ffffff;
-    text-align: center;
-	padding: 10px;
-	position: absolute; 
-    top: 204px; 
-    left: 10; 
-    width: 75%;
-}
-
+/* formats contact section */
 #contact {
 background-image: url("../images/hexellence.png");
 width:  100%;
