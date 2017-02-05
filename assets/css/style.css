@@ -3,7 +3,6 @@ background-image: url("../images/cubes.png");
 background-image: url("../images/graphy.png");
 background-image: url("../images/hexellence.png");
 width:  100%;
-
 }*/
 
 /*navbar formatting*/
@@ -42,17 +41,27 @@ width:  100%;
 }
 
 #portfolio {
- background-image: url("../images/graphy.png");
+background-image: url("../images/graphy.png");
 width:  100%;
 padding: 100px 0 100px 0;
 }
 
+ .panel-heading, .panel-footer {
+  background-color: #79c488!important;
+  text-align: center;
+}
+
+.panel-heading {font-size: 20px; font-weight: bold;}
+
+
 
 .links {float: right; padding: 90px 35px 0 0; }
 
-.linktext {color: black; font-size: 20px}
+.linktext {color: black; font-size: 15px}
 
 .projPic {width: 75%;}
+
+.projPicNew {width: 106.5%;  margin: -15px;}
 
 /*text over pictures for portfolio*/
 .projlink { 
