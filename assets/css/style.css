@@ -32,15 +32,12 @@
 
 /* sizes profile picture */
 .mypic {
-    width: 100%;
+    width: 250px;
+    float: left;
+    margin-right: 25px;
 }
 
-#aboutBck {
-  background-color: white; 
-  opacity: 0.5;
-}
 
- .aboutTxt {opacity: 1;}
 
 /* formats portfolio section */
 #portfolio {
