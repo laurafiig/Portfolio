@@ -37,23 +37,30 @@
     margin-right: 25px;
 }
 
-
-
 /* formats portfolio section */
 #portfolio {
-background-image: url("../images/graphy.png");
-width:  100%;
-padding: 100px 0 100px 0;
+  background-image: url("../images/graphy.png");
+  width:  100%;
+  padding: 100px 0 100px 0;
 }
 
- .panel-heading, .panel-footer {
+.panel-heading, .panel-footer {
   background-color: #79c488!important;
   text-align: center;
 }
 
-.panel-heading {font-size: 20px; font-weight: bold;}
+.panel-heading {
+  font-size: 20px; 
+  font-weight: bold;
+}
 
-.projPicNew {width: 106.5%;  margin: -15px;}
+
+.projPicNew {
+  width: 100%
+/*  width: 106.5%;  
+  margin: -15px;*/
+}
+
 
 /* formats contact section */
 #contact {
@@ -65,3 +72,7 @@ width:  100%;
 #contForm {
   margin-top: 75px;
 }
+
+
+
+
