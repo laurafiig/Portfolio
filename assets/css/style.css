@@ -22,6 +22,8 @@
    width: 100%;
  }
 
+#abtTxt {padding: 0 50px 0 50px;}
+
 /* sizes profile picture */
 .mypic {
   width: 250px;
@@ -63,8 +65,8 @@ header, footer {
 #contact {
   background-image: url("../images/hexellence.png");
   width: 100%;
-  padding-top: 50px;
-  height: 600px;
+  padding: 50px 0 150px 0;
+  
 }
 
 .sectHead, h4 {
