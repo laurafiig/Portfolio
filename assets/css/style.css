@@ -1,19 +1,33 @@
+/* colors used */
+/*
+base      #3480C9
+lighter   #5597D5
+lightest  #81B3E4
+darker    #1169BE
+darkest   #094E90
+*/
+
 
 /* navbar formatting */
 .navbar-default {
-  background-color: #79c488!important;
+  background-color: #3481c9!important;
 }
 
 .navbar-brand {
-  font-size: 25px;
-  color: black!important;
+  font-size: 40px;
+  color: white!important;
+  text-shadow: 3px 2px #094E90;
 }
 
 /* text for links in navbar and portfolio */
 .linktext {
   color: black!important;
-  font-size: 15px
+  text-shadow: 1px 2px #81B3E4;
+  font-size: 20px
 }
+
+/* intro */
+#homePic {width: 100%; }
 
 /* formats about me section */
 #about {

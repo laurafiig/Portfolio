@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+var presidents = [
+
+  {"number":32,"president":"Franklin D. Roosevelt","took_office":"1933-03-04","left_office":"1945-04-12"},
+
+  {"number":33,"president":"Harry S. Truman","took_office":"1945-04-12","left_office":"1953-01-20"},
+
+  {"number":34,"president":"Dwight D. Eisenhower","took_office":"1953-01-20","left_office":"1961-01-20"},
+
+  {"number":35,"president":"John F. Kennedy","took_office":"1961-01-20","left_office":"1963-11-22"},
+
+  {"number":36,"president":"Lyndon B. Johnson","took_office":"1963-11-22","left_office":"1969-01-20"},
+
+  {"number":37,"president":"Richard Nixon","took_office":"1969-01-20","left_office":"1974-08-09"},
+
+  {"number":38,"president":"Gerald Ford","took_office":"1974-08-09","left_office":"1977-01-20"},
+
+  {"number":39,"president":"Jimmy Carter","took_office":"1977-01-20","left_office":"1981-01-20"},
+
+  {"number":40,"president":"Ronald Reagan","took_office":"1981-01-20","left_office":"1989-01-20"},
+
+  {"number":41,"president":"George H. W. Bush","took_office":"1989-01-20","left_office":"1993-01-20"},
+
+  {"number":42,"president":"Bill Clinton","took_office":"1993-01-20","left_office":"2001-01-20"},
+
+  {"number":43,"president":"George W. Bush","took_office":"2001-01-20","left_office":"2009-01-20"},
+
+  {"number":44,"president":"Barack Obama","took_office":"2009-01-20","left_office":"2017-01-20"}
+
+];
+
+key = "number"
+
+function sort() {
+       var prez = presidents.sort(function(a, b){return b.key - a.key}); 
+		console.log(prez)
+}
+
+sort()
+
+
+</script>
+</body>
+</html>
